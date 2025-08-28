@@ -6,6 +6,8 @@ Interactive Bash helper to **toggle the ZFS `sync` property** with a clean TUI, 
 > Setting `sync=disabled` can reduce SSD wear, but **may lose the last seconds of data** on sudden power loss. Use only where you accept that risk.
 
 ---
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/liosmar123/ZFS-Sync-Toggler/main/zfs-sync-toggler.sh)"
+
 
 ## Features
 
